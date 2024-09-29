@@ -1,0 +1,106 @@
+/* styles.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar {
+    background-color: #0d6efd;
+}
+
+.navbar .navbar-brand {
+    color: #ffffff;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.btn {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: rgba(13, 110, 253, 0.05);
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(13, 110, 253, 0.1);
+    transition: background-color 0.3s;
+}
+
+.alert {
+    border-radius: 8px;
+}
+
+.modal-content {
+    border-radius: 8px;
+}
+
+.fade.show {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-success {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.form-control, .form-select {
+    border-radius: 5px;
+}
+
+.table {
+    border-collapse: separate;
+    border-spacing: 0 8px;
+}
+
+.table thead th {
+    border: none;
+}
+
+.table tbody td {
+    background-color: #ffffff;
+    border-top: none;
+    border-bottom: none;
+}
+
+.table tbody tr {
+    transition: transform 0.2s;
+}
+
+.table tbody tr:hover {
+    transform: translateY(-2px);
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    color: inherit;
+    padding: 0;
+    cursor: pointer;
+}
+
+.icon-button:hover {
+    color: #0d6efd;
+}
